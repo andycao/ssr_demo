@@ -4,7 +4,10 @@
   "description": "##server side rendering",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -18,8 +21,9 @@
   },
   "homepage": "https://github.com/andycao/ssr_demo#readme",
   "dependencies": {
+    "express": "^4.17.0",
     "next": "^8.1.0",
     "react": "^16.8.6",
-    "react-demo": "^2.0.0"
+    "react-dom": "^16.8.6"
   }
 }

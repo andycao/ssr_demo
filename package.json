@@ -1,0 +1,25 @@
+{
+  "name": "ssr_demo",
+  "version": "1.0.0",
+  "description": "##server side rendering",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andycao/ssr_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andycao/ssr_demo/issues"
+  },
+  "homepage": "https://github.com/andycao/ssr_demo#readme",
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-demo": "^2.0.0"
+  }
+}

@@ -8,16 +8,7 @@ const linkStyle = {
 
 class Header extends Component {
     componentWillMount(){
-        console.log('Header run');
-        this.getInfo();
-    }
-
-    getInfo = async () => {
-        const url = 'http://api.tvmaze.com/search/shows?q=girls';
-        const res = await fetch(url);
-        const data = await res.json();
-
-        console.log(data);
+    let a = 1
     }
 
     render() {
